@@ -35,8 +35,8 @@ export default function App() {
 
   return (
     <GiftedChat
-      messages={replies}
-      onSend={replies => onSend(replies)}
+      messages={messages}
+      onSend={messages => onSend(messages)}
       user={{
         _id: 1,
       }}
